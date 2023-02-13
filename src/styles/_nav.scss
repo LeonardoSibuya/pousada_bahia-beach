@@ -1,0 +1,49 @@
+.nav {
+    margin-top: -8px;
+    position: sticky;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(#ffcc01, #ffcc0198);
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        &__item {
+            padding: 12px 16px;
+
+            &__link {
+                position: relative;
+                text-decoration: none;
+                color: #000;
+                font-weight: bold;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                padding: 0px 10px;
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    background-color: #32a0ee;
+                    height: 2px;
+                    width: 0;
+                    left: 0;
+                    bottom: -5px;
+                    transition: .8s ease;
+                }
+
+                &:hover {
+                    color: #ffffff;
+                    transition: .2s ease;
+                }
+
+                &:hover:after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

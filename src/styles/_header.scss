@@ -1,0 +1,12 @@
+.header {
+    background-image: linear-gradient(#FE5C37, #FFCD01);
+
+    &__title {
+        text-align: center;
+
+        &__img {
+            max-width: 300px;
+            margin: 16px auto;
+        }
+    }
+}

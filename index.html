@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">
+                <img src="dist/images/logo.png" alt="" class="header__title__img">
+            </h1>
+        </div>
+    </header>
+
+    <div class="nav">
+        <ul class="nav__list">
+            <li class="nav__list__item">
+                <a href="" class="nav__list__item__link">
+                    Sobre nós
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="" class="nav__list__item__link">
+                    Galeria
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="" class="nav__list__item__link">
+                    Serviços
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="" class="nav__list__item__link">
+                    Feedbacks
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="" class="nav__list__item__link">
+                    Reserve já
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="" class="nav__list__item__link">
+                    Contato
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="sequencia-imagem">
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carrosel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="dist/images/carrosel/foto-carrosel-1.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="dist/images/carrosel/foto-carrosel-2.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="dist/images/carrosel/foto-carousel-3.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="dist/images/carrosel/foto-carrosel-4.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="dist/images/carrosel/foto-carrosel-5.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="dist/images/carrosel/foto-carrosel-6.jpg" alt="">
+                </div>
+            </div>
+
+            <button type="button" data-bs-slide="prev" data-bs-target="#carrosel" class="carousel-control-prev ">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" data-bs-slide="next" data-bs-target="#carrosel" class="carousel-control-next ">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carrosel" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carrosel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carrosel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carrosel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carrosel" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carrosel" data-bs-slide-to="5"></button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="about">
+            <div class="about__img">
+                <img src="dist/images/galeria/foto-1.jpg" alt="">
+            </div>
+            <div class="about__info">
+                <h2 class="about__info__title">
+                    Sobre a pousada
+                </h2>
+                <p class="about__info__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
+                    ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
+                    ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
+                </p>
+                <ul class="about__info__list">
+                    <li class="about__info__list__item">
+                        <a href="https://www.instagram.com/hostelpousada.bahiabeach/" class="about__info__list__item__link" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="about__info__list__item">
+                        <a href="https://api.whatsapp.com/message/SH463ORGNBLNL1?autoload=1&app_absent=0" class="about__info__list__item__link" target="_blank">
+                            <i class="bi bi-whatsapp"></i>
+                            Whatsapp
+                        </a>
+                    </li>
+                    <li class="about__info__list__item">
+                        <a href="mailto:hostelpousada.bahiabeach@outlook.com.br" class="about__info__list__item__link" target="_blank">
+                            <i class="bi bi-envelope-at"></i>
+                            E-mail
+                        </a>
+                    </li>
+                </ul>
+                <h3 class="about__info__adress">
+                    <a href="https://www.google.com.br/maps/place/R.+Bahia,+51+-+Cibratel+II,+Itanha%C3%A9m+-+SP,+11740-000/@-24.2067092,-46.8315403,17z/data=!3m1!4b1!4m6!3m5!1s0x94d02ab5e92ba447:0x3195321c4f22478c!8m2!3d-24.2067092!4d-46.8293516!16s%2Fg%2F11f0kzhcmg" class="about__info__adress__link" target="_blank">
+                        <i class="bi bi-geo-alt"></i>
+                        Rua Bahia, 51, Cibratel II - Itanhaém - SP 
+                    </a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="gallery">
+        <div class="gallery__info">
+            <h2 class="gallery__info__title">
+                Descubra o 
+                <br>
+                <span>paraíso</span>
+                <br>
+                em cada clique!
+            <br>
+            <img src="dist/images/logo.png" alt="" class="gallery__info__title__logo">
+            </h2>
+        </div>
+        <div class="gallery__fotos">
+            <div class="gallery__fotos__buttons">
+                <button class="gallery__fotos__buttons__btn gallery__fotos__buttons__btn--is-active" data-tab-button="external">
+                    Área externa
+                </button>
+                <button class="gallery__fotos__buttons__btn" data-tab-button="internal">
+                    Área interna
+                </button>
+                <button class="gallery__fotos__buttons__btn" data-tab-button="room">
+                    Quartos
+                </button>
+                <button class="gallery__fotos__buttons__btn" data-tab-button="lazer">
+                    Lazer
+                </button>
+            </div>
+
+            <ul class="gallery__fotos__tab__list gallery__fotos__tab__list--is-active" data-tab-id="external">
+                <li class="gallery__fotos__tab__list__item">
+                    <img src="dist/images/galeria/externa/externo-1.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
+                </li>
+                <li class="gallery__fotos__tab__list__item">
+                    <img src="dist/images/galeria/externa/externo-2.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
+                </li>
+                <li class="gallery__fotos__tab__list__item">
+                    <img src="dist/images/galeria/externa/externo-3.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
+                </li>
+                <li class="gallery__fotos__tab__list__item">
+                    <img src="dist/images/galeria/externa/externo-4.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
+                </li>
+                <li class="gallery__fotos__tab__list__item">
+                    <img src="dist/images/galeria/externa/externo-5.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1200">
+                </li>
+                <li class="gallery__fotos__tab__list__item">
+                    <img src="dist/images/galeria/externa/externo-6.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1100">
+                </li>
+                <li class="gallery__fotos__tab__list__item">
+                    <img src="dist/images/galeria/externa/externo-7.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1000">
+                </li>
+                <li class="gallery__fotos__tab__list__item">
+                    <img src="dist/images/galeria/externa/externo-8.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="800">
+                </li>
+            </ul>
+
+            <ul class="gallery__fotos__tab__list" data-tab-id="internal">
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/interno/interno-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/interno/interno-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/interno/interno-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/interno/interno-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/interno/interno-5.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/interno/interno-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/interno/interno-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/interno/interno-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+            </ul>
+
+                <ul class="gallery__fotos__tab__list" data-tab-id="room">
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/quarto/quarto-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/quarto/quarto-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/quarto/quarto-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/quarto/quarto-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/quarto/quarto-9.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/quarto/quarto-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/quarto/quarto-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/quarto/quarto-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                </ul>
+
+                <ul class="gallery__fotos__tab__list" data-tab-id="lazer">
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/lazer/lazer-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/lazer/lazer-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/lazer/lazer-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/lazer/lazer-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/lazer/lazer-5.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/lazer/lazer-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/lazer/lazer-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/lazer/lazer-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="dist/js/main.js"></script>
+</body>
+</html>

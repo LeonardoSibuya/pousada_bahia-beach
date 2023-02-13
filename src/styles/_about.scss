@@ -1,0 +1,74 @@
+.about {
+    display: flex;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    background-image: linear-gradient(#FE5C37, #FFCD01);
+    border-radius: 0px 20px 20px 0px;
+
+    &__img{
+        img {
+            max-width: 460px;
+        }
+    }
+
+    &__info {
+        text-align: center;
+
+        &__title {
+            font-size: 36px;
+            padding-top: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-family: summer-love;
+        }
+
+        &__text {
+            margin: 50px 16px 0px;
+        }
+
+        &__list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 80px;
+
+            &__item {
+
+                &__link {
+                    color: #000;
+                    text-decoration: none;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    font-size: 20px;
+                    transition: .2s ease;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        &__adress {
+            margin: 0;
+            margin-top: 80px;            
+
+            &__link {
+                color: #000;
+                font-style: italic;
+                text-decoration: none;
+                transition: .3s;
+                letter-spacing: 4px;
+                font-size: 20px;
+                transition: .4s ease;
+
+                &:hover {
+                    letter-spacing: 4.5px;
+                }
+
+                i {
+                    color: rgb(230, 103, 0);
+                }
+            }
+        }
+    }
+}
