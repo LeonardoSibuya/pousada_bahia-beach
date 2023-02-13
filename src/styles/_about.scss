@@ -13,6 +13,7 @@
 
     &__info {
         text-align: center;
+        padding: 6px 16px;
 
         &__title {
             font-size: 36px;
@@ -28,7 +29,9 @@
 
         &__list {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            padding-left: 0;
+            gap: 8%;
             margin-top: 80px;
 
             &__item {
