@@ -13,6 +13,19 @@ document.addEventListener('DOMContentLoaded', function() {
             botao.target.classList.add('gallery__fotos__buttons__btn--is-active')
         })
     }
+
+    const select = document.getElementById("select")
+    const span = document.getElementById('valor')
+
+    select.addEventListener('change', function() {
+        const valorSelecionado = select.value
+
+        if (valorSelecionado === "opcao1") {
+            span.innerText = "90,00"
+        } else {
+            span.innerText = "300,00"
+        }
+    })
 })
 
 function removeBotaoAtivo() {

@@ -1,5 +1,5 @@
 .feedback {
-    padding: 100px 0px;
+    padding: 120px 0px;
     margin: 0 auto;
     margin-bottom: 160px;
     padding-left: 0;
@@ -18,18 +18,20 @@
         &__title {
         font-family: summer-love;
         font-size: 36px;
-        margin-bottom: 36px;
+        margin-bottom: 48px;
         }
 
         &__list {
             text-align: center;
-            padding: 36px 6px;
-            background-color: #ffffff83;
-            border: 3px solid #32a0ee;
-            border-radius: 36px;
-            width: 80%;
+            margin: 0 auto;
+            width: 60%;
+            padding: 24px;
+            border-radius: 30px;
+            border: 2px solid #32a0ee;
+            background-color: #ffffff9c;
 
             &__item {
+                margin: 0 auto;
 
                 &__photo-profile {
                     width: 80px;
@@ -63,7 +65,7 @@
                 text-decoration: none;
                 position: relative;
                 text-decoration: none;
-                margin-top: 24px;
+                margin-top: 48px;
                 color: #000;
                 font-weight: bold;
                 font-size: 24px;
@@ -97,4 +99,12 @@
             width: 500px;
         }
     }
+}
+
+.carousel-item,
+.active,
+.carousel,
+.slide,
+.carousel-inner {
+    width: 100%;
 }
