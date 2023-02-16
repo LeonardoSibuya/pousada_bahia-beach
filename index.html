@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="cabecalho">
         <div class="container">
             <h1 class="header__title">
                 <img src="dist/images/logo.png" alt="" class="header__title__img">
@@ -22,40 +22,40 @@
         </div>
     </header>
 
-    <div class="nav">
+    <nav class="nav">
         <ul class="nav__list">
             <li class="nav__list__item">
-                <a href="" class="nav__list__item__link">
+                <a href="#sobre" class="nav__list__item__link">
                     Sobre nós
                 </a>
             </li>
             <li class="nav__list__item">
-                <a href="" class="nav__list__item__link">
+                <a href="#galeria" class="nav__list__item__link">
                     Galeria
                 </a>
             </li>
             <li class="nav__list__item">
-                <a href="" class="nav__list__item__link">
+                <a href="#services" class="nav__list__item__link">
                     Serviços
                 </a>
             </li>
             <li class="nav__list__item">
-                <a href="" class="nav__list__item__link">
+                <a href="#feedback" class="nav__list__item__link">
                     Feedbacks
                 </a>
             </li>
             <li class="nav__list__item">
-                <a href="" class="nav__list__item__link">
+                <a href="#reserve" class="nav__list__item__link">
                     Reserve já
                 </a>
             </li>
             <li class="nav__list__item">
-                <a href="" class="nav__list__item__link">
+                <a href="#contact" class="nav__list__item__link">
                     Contato
                 </a>
             </li>
         </ul>
-    </div>
+    </nav>
 
     <section class="sequencia-imagem">
         <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carrosel">
@@ -98,487 +98,568 @@
         </div>
     </section>
 
-    <div class="container">
-        <div class="about">
-            <div class="about__img">
-                <img src="dist/images/galeria/foto-1.jpg" alt="">
-            </div>
-            <div class="about__info">
-                <h2 class="about__info__title">
-                    Sobre a pousada
-                </h2>
-                <p class="about__info__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
-                    ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
-                    ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
-                </p>
-                <ul class="about__info__list">
-                    <li class="about__info__list__item">
-                        <a href="https://www.instagram.com/hostelpousada.bahiabeach/" class="about__info__list__item__link" target="_blank">
-                            <i class="bi bi-instagram"></i>
-                            Instagram
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <div class="container" id="sobre">
+            <section class="about">
+                <div class="about__img">
+                    <img src="dist/images/galeria/foto-1.jpg" alt="">
+                </div>
+                <div class="about__info">
+                    <h2 class="about__info__title">
+                        Sobre a pousada
+                    </h2>
+                    <p class="about__info__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
+                        ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
+                        ipsum dolor sit, amet consectetur adipisicing elit. Animi at voluptatum earum provident, mollitia suscipit explicabo dolor ducimus aliquam perspiciatis quisquam rem atque sint, inventore saepe consequuntur incidunt eaque! Possimus.
+                    </p>
+                    <ul class="about__info__list">
+                        <li class="about__info__list__item">
+                            <a href="https://www.instagram.com/hostelpousada.bahiabeach/" class="about__info__list__item__link" target="_blank">
+                                <i class="bi bi-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="about__info__list__item">
+                            <a href="https://www.facebook.com/hostelpousada.bahiabeach" class="about__info__list__item__link" target="_blank">
+                                <i class="bi bi-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="about__info__list__item">
+                            <a href="https://api.whatsapp.com/message/SH463ORGNBLNL1?autoload=1&app_absent=0" class="about__info__list__item__link" target="_blank">
+                                <i class="bi bi-whatsapp"></i>
+                                Whatsapp
+                            </a>
+                        </li>
+                        <li class="about__info__list__item">
+                            <a href="mailto:hostelpousada.bahiabeach@outlook.com.br" class="about__info__list__item__link" target="_blank">
+                                <i class="bi bi-envelope-at"></i>
+                                E-mail
+                            </a>
+                        </li>
+                    </ul>
+                    <h3 class="about__info__adress">
+                        <a href="https://www.google.com.br/maps/place/R.+Bahia,+51+-+Cibratel+II,+Itanha%C3%A9m+-+SP,+11740-000/@-24.2067092,-46.8315403,17z/data=!3m1!4b1!4m6!3m5!1s0x94d02ab5e92ba447:0x3195321c4f22478c!8m2!3d-24.2067092!4d-46.8293516!16s%2Fg%2F11f0kzhcmg" class="about__info__adress__link" target="_blank">
+                            <i class="bi bi-geo-alt"></i>
+                            Rua Bahia, 51, Cibratel II - Itanhaém - SP 
                         </a>
-                    </li>
-                    <li class="about__info__list__item">
-                        <a href="https://www.facebook.com/hostelpousada.bahiabeach" class="about__info__list__item__link" target="_blank">
-                            <i class="bi bi-facebook"></i>
-                            Facebook
-                        </a>
-                    </li>
-                    <li class="about__info__list__item">
-                        <a href="https://api.whatsapp.com/message/SH463ORGNBLNL1?autoload=1&app_absent=0" class="about__info__list__item__link" target="_blank">
-                            <i class="bi bi-whatsapp"></i>
-                            Whatsapp
-                        </a>
-                    </li>
-                    <li class="about__info__list__item">
-                        <a href="mailto:hostelpousada.bahiabeach@outlook.com.br" class="about__info__list__item__link" target="_blank">
-                            <i class="bi bi-envelope-at"></i>
-                            E-mail
-                        </a>
-                    </li>
-                </ul>
-                <h3 class="about__info__adress">
-                    <a href="https://www.google.com.br/maps/place/R.+Bahia,+51+-+Cibratel+II,+Itanha%C3%A9m+-+SP,+11740-000/@-24.2067092,-46.8315403,17z/data=!3m1!4b1!4m6!3m5!1s0x94d02ab5e92ba447:0x3195321c4f22478c!8m2!3d-24.2067092!4d-46.8293516!16s%2Fg%2F11f0kzhcmg" class="about__info__adress__link" target="_blank">
-                        <i class="bi bi-geo-alt"></i>
-                        Rua Bahia, 51, Cibratel II - Itanhaém - SP 
-                    </a>
-                </h3>
-            </div>
-        </div>
-    </div>
-    
-    <div class="gallery">
-        <div class="gallery__info">
-            <h2 class="gallery__info__title">
-                Descubra o 
-                <span>paraíso</span>
-                em cada clique!
-            <br>
-            <img src="dist/images/logo.png" alt="" class="gallery__info__title__logo">
-            </h2>
-        </div>
-        <div class="gallery__fotos">
-            <div class="gallery__fotos__buttons">
-                <button class="gallery__fotos__buttons__btn gallery__fotos__buttons__btn--is-active" data-tab-button="external">
-                    Área externa
-                </button>
-                <button class="gallery__fotos__buttons__btn" data-tab-button="internal">
-                    Área interna
-                </button>
-                <button class="gallery__fotos__buttons__btn" data-tab-button="room">
-                    Quartos
-                </button>
-                <button class="gallery__fotos__buttons__btn" data-tab-button="lazer">
-                    Lazer
-                </button>
-            </div>
-
-            <ul class="gallery__fotos__tab__list gallery__fotos__tab__list--is-active" data-tab-id="external">
-                <li class="gallery__fotos__tab__list__item">
-                    <img src="dist/images/galeria/externa/externo-1.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
-                </li>
-                <li class="gallery__fotos__tab__list__item">
-                    <img src="dist/images/galeria/externa/externo-2.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
-                </li>
-                <li class="gallery__fotos__tab__list__item">
-                    <img src="dist/images/galeria/externa/externo-3.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
-                </li>
-                <li class="gallery__fotos__tab__list__item">
-                    <img src="dist/images/galeria/externa/externo-4.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
-                </li>
-                <li class="gallery__fotos__tab__list__item">
-                    <img src="dist/images/galeria/externa/externo-5.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1200">
-                </li>
-                <li class="gallery__fotos__tab__list__item">
-                    <img src="dist/images/galeria/externa/externo-6.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1100">
-                </li>
-                <li class="gallery__fotos__tab__list__item">
-                    <img src="dist/images/galeria/externa/externo-7.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1000">
-                </li>
-                <li class="gallery__fotos__tab__list__item">
-                    <img src="dist/images/galeria/externa/externo-8.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="800">
-                </li>
-            </ul>
-
-            <ul class="gallery__fotos__tab__list" data-tab-id="internal">
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/interno/interno-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/interno/interno-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/interno/interno-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/interno/interno-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/interno/interno-5.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/interno/interno-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/interno/interno-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/interno/interno-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-            </ul>
-
-                <ul class="gallery__fotos__tab__list" data-tab-id="room">
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/quarto/quarto-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/quarto/quarto-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/quarto/quarto-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/quarto/quarto-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/quarto/quarto-9.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/quarto/quarto-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/quarto/quarto-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/quarto/quarto-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                </ul>
-
-                <ul class="gallery__fotos__tab__list" data-tab-id="lazer">
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/lazer/lazer-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/lazer/lazer-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/lazer/lazer-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/lazer/lazer-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/lazer/lazer-5.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/lazer/lazer-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/lazer/lazer-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                    <li class="gallery__fotos__tab__list__item">
-                        <img src="dist/images/galeria/lazer/lazer-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
-                    </li>
-                </ul>
-        </div>
-    </div>
-
-    <div class="container">
-        <section class="services">
-                <h2 class="services__title">
-                    Hospedagem completa
-                </h2>
-                <ul class="services__list">
-                    <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title">
-                                Área Kids
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                        <img src="dist/images/galeria/lazer/lazer-4.jpg" alt="" class="services__list__item__img">
-                    </li>
-                    <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
-                        <img src="dist/images/galeria/lazer/lazer-8.jpg" alt="" class="services__list__item__img services__list__item__img__right">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title services__list__item__info__title__right">
-                                Sala de jogos
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                    </li>
-                    <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title">
-                                Café
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                        <img src="dist/images/galeria/cafe.jpg" alt="" class="services__list__item__img">
-                    </li>
-                    <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
-                        <img src="dist/images/galeria/porcao.jpg" alt="" class="services__list__item__img services__list__item__img__right">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title services__list__item__info__title__right">
-                                Porções e bebidas
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                    </li>
-                    <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title">
-                                Almoço/jantar
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                        <img src="dist/images/galeria/comida.jpg" alt="" class="services__list__item__img">
-                    </li>
-                    <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
-                        <img src="dist/images/galeria/externa/externo-4.jpg" alt="" class="services__list__item__img services__list__item__img__right">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title services__list__item__info__title__right">
-                                Cozinha dos hóspedes
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                    </li>
-                    <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title">
-                                Estacionamento rotativo
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                        <img src="dist/images/galeria/estacionamento-2.jpg" alt="" class="services__list__item__img">
-                    </li>
-                    <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
-                        <img src="dist/images/galeria/dog-2.jpg" alt="" class="services__list__item__img services__list__item__img__right">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title services__list__item__info__title__right">
-                                Pet friendly
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                    </li>
-                    <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title">
-                                Decoração romântica
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                        <img src="dist/images/galeria/decoracao-1.jpg" alt="" class="services__list__item__img">
-                    </li>
-                    <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
-                        <img src="dist/images/galeria/pe-na-areia.jpg" alt="" class="services__list__item__img services__list__item__img__right">
-                        <div class="services__list__item__info">
-                            <div class="services__list__item__info__title services__list__item__info__title__right">
-                                Vista para o mar
-                            </div>
-                            <div class="services__list__item__info__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="services__geral">
-                    <li class="services__geral__icons">
-                        <abbr title="*Wi-Fi já incluso"><i class="bi bi-wifi"></i></abbr>
-                    </li>
-                    <li class="services__geral__icons">
-                        <abbr title="*Sala de TV já incluso"><i class="bi bi-tv"></i></abbr>
-                    </li>
-                    <li class="services__geral__icons">
-                        <abbr title="*Aberto todos os dias"><i class="bi bi-calendar3"></i>
-                        </abbr>
-                    </li>
-                </ul>
+                    </h3>
+                </div>
             </section>
         </div>
-
-    <section class="feedback">
-        <div class="container">
-            <div class="feedback__rating">
-                <h2 class="feedback__rating__title">
-                    O que falam sobre a gente
+        
+        <section class="gallery" id="galeria">
+            <div class="gallery__info">
+                <h2 class="gallery__info__title">
+                    Descubra o 
+                    <span>paraíso</span>
+                    em cada clique!
+                <br>
+                <img src="dist/images/logo.png" alt="" class="gallery__info__title__logo">
                 </h2>
-                <div class="carousel slide" data-bs-ride="carousel" id="carousel-dois">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="4000">
-                            <ul class="feedback__rating__list">
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <h3 class="feedback__rating__list__item__name">
-                                        Maria clara
-                                    </h3>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <p class="feedback__rating__list__item__text">
-                                        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
-                                    </p>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="carousel-item" data-bs-interval="4000">
-                            <ul class="feedback__rating__list">
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <h3 class="feedback__rating__list__item__name">
-                                        Leonardo Sibuya
-                                    </h3>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <p class="feedback__rating__list__item__text">
-                                        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
-                                    </p>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="carousel-item" data-bs-interval="4000">
-                            <ul class="feedback__rating__list">
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <h3 class="feedback__rating__list__item__name">
-                                        Jade Melissa
-                                    </h3>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <p class="feedback__rating__list__item__text">
-                                        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
-                                    </p>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="carousel-item" data-bs-interval="4000">
-                            <ul class="feedback__rating__list">
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <h3 class="feedback__rating__list__item__name">
-                                        Jade Melissa
-                                    </h3>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <p class="feedback__rating__list__item__text">
-                                        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
-                                    </p>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="carousel-item" data-bs-interval="4000">
-                            <ul class="feedback__rating__list">
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <h3 class="feedback__rating__list__item__name">
-                                        Jade Melissa
-                                    </h3>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <p class="feedback__rating__list__item__text">
-                                        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
-                                    </p>
-                                </li>
-                                <li class="feedback__rating__list__item">
-                                    <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
-                                </li>
-                            </ul>
-                        </div>
-
-                        <button type="button" data-bs-slide="prev" data-bs-target="#carousel-dois" class="carousel-control-prev ">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button type="button" data-bs-slide="next" data-bs-target="#carousel-dois" class="carousel-control-next ">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
+            </div>
+            <div class="gallery__fotos">
+                <div class="gallery__fotos__buttons">
+                    <button class="gallery__fotos__buttons__btn gallery__fotos__buttons__btn--is-active" data-tab-button="external">
+                        Área externa
+                    </button>
+                    <button class="gallery__fotos__buttons__btn" data-tab-button="internal">
+                        Área interna
+                    </button>
+                    <button class="gallery__fotos__buttons__btn" data-tab-button="room">
+                        Quartos
+                    </button>
+                    <button class="gallery__fotos__buttons__btn" data-tab-button="lazer">
+                        Lazer
+                    </button>
                 </div>
-                <a href="https://www.google.com/travel/search?q=hostel%20e%20pousada%20bahia%20beach&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4308227%2C4429192%2C4515404%2C4597339%2C4731329%2C4757164%2C4778035%2C4814050%2C4861688%2C4864715%2C4874190%2C4886082%2C4886480%2C4893075%2C4902277%2C4906023%2C4920132%2C4924069%2C4926165%2C4926489%2C4930751%2C4930753%2C4936396%2C4942347%2C4946428%2C4950242%2C4958150&hl=pt-BR&gl=br&cs=1&ssta=1&ts=CAESABpHCikSJzIlMHg5NGQwMmIzNWNkMTY3MDlkOjB4OWViNTQwMTliNGFhNWRmNhIaEhQKBwjnDxAEGBMSBwjnDxAEGBQYATICEAA&qs=CAEyFENnc0k5cnVwcFp1RDBOcWVBUkFCOAJCCwn2Xaq0GUC1nhgBQgsJ9l2qtBlAtZ4YAQ&ap=ugEHcmV2aWV3cw&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwiguPTut5j9AhUAAAAAHQAAAAAQDA" target="_blank" class="feedback__rating__button">Veja mais avaliações +</a>
+    
+                <ul class="gallery__fotos__tab__list gallery__fotos__tab__list--is-active" data-tab-id="external">
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/externa/externo-1.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/externa/externo-2.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/externa/externo-3.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/externa/externo-4.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1100">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/externa/externo-5.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1200">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/externa/externo-6.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1100">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/externa/externo-7.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1000">
+                    </li>
+                    <li class="gallery__fotos__tab__list__item">
+                        <img src="dist/images/galeria/externa/externo-8.jpg" alt="" class="gallery__fotos__tab__list__item__img" data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="800">
+                    </li>
+                </ul>
+    
+                <ul class="gallery__fotos__tab__list" data-tab-id="internal">
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/interno/interno-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/interno/interno-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/interno/interno-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/interno/interno-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/interno/interno-5.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/interno/interno-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/interno/interno-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/interno/interno-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                </ul>
+    
+                    <ul class="gallery__fotos__tab__list" data-tab-id="room">
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/quarto/quarto-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/quarto/quarto-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/quarto/quarto-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/quarto/quarto-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/quarto/quarto-9.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/quarto/quarto-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/quarto/quarto-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/quarto/quarto-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                    </ul>
+    
+                    <ul class="gallery__fotos__tab__list" data-tab-id="lazer">
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/lazer/lazer-1.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/lazer/lazer-2.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/lazer/lazer-3.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/lazer/lazer-4.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/lazer/lazer-5.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/lazer/lazer-6.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/lazer/lazer-7.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                        <li class="gallery__fotos__tab__list__item">
+                            <img src="dist/images/galeria/lazer/lazer-8.jpg" alt="" class="gallery__fotos__tab__list__item__img">
+                        </li>
+                    </ul>
+            </div>
+        </section>
+
+        <div class="video">
+            <div class="container">
+                <h2 class="video__title">
+                    Nossa cidade maravilhosa
+                </h2>
+                <iframe class="video__content" src="https://www.youtube.com/embed/ABzDOSQkhTM" frameborder="0"></iframe>
             </div>
         </div>
-    </section>
-
-    <section class="reserve">
-        <div class="container">
-            <div class="reserve__info">
-                <h2 class="reserve__info__title">
-                    Venha relaxar neste paraiso
-                </h2>
-                <p class="reserve__info__text">
-                    Não perca esta oportunidade e venha aproveitar, se divertir e descansar no Bahia Beach.
-                    <br>
-                    Para aproveitar tudo que oferecemos e ficar por dentro de todas as promoções, nos chame em nosso WhatsApp.
-                    <br>
-                    Estamos te esperando!
-                </p>
-                <a href="https://api.whatsapp.com/message/SH463ORGNBLNL1?autoload=1&app_absent=0" class="reserve__info__button" target="_blank">
-                    <i class="bi bi-whatsapp"></i>
-                    WhatsApp</a>
+    
+        <div class="container" id="services">
+            <section class="services">
+                    <h2 class="services__title">
+                        Hospedagem completa
+                    </h2>
+                    <ul class="services__list">
+                        <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title">
+                                    Área Kids
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                            <img src="dist/images/galeria/lazer/lazer-4.jpg" alt="" class="services__list__item__img">
+                        </li>
+                        <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
+                            <img src="dist/images/galeria/lazer/lazer-8.jpg" alt="" class="services__list__item__img services__list__item__img__right">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title services__list__item__info__title__right">
+                                    Sala de jogos
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title">
+                                    Café
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                            <img src="dist/images/galeria/cafe.jpg" alt="" class="services__list__item__img">
+                        </li>
+                        <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
+                            <img src="dist/images/galeria/porcao.jpg" alt="" class="services__list__item__img services__list__item__img__right">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title services__list__item__info__title__right">
+                                    Porções e bebidas
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title">
+                                    Almoço/jantar
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                            <img src="dist/images/galeria/comida.jpg" alt="" class="services__list__item__img">
+                        </li>
+                        <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
+                            <img src="dist/images/galeria/externa/externo-4.jpg" alt="" class="services__list__item__img services__list__item__img__right">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title services__list__item__info__title__right">
+                                    Cozinha dos hóspedes
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title">
+                                    Estacionamento rotativo
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                            <img src="dist/images/galeria/estacionamento-2.jpg" alt="" class="services__list__item__img">
+                        </li>
+                        <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
+                            <img src="dist/images/galeria/dog-2.jpg" alt="" class="services__list__item__img services__list__item__img__right">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title services__list__item__info__title__right">
+                                    Pet friendly
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__list__item services__list__item__left" data-aos="fade-right"  data-aos-duration="1000">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title">
+                                    Decoração romântica
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                            <img src="dist/images/galeria/decoracao-1.jpg" alt="" class="services__list__item__img">
+                        </li>
+                        <li class="services__list__item" data-aos="fade-left"  data-aos-duration="1000">
+                            <img src="dist/images/galeria/pe-na-areia.jpg" alt="" class="services__list__item__img services__list__item__img__right">
+                            <div class="services__list__item__info">
+                                <div class="services__list__item__info__title services__list__item__info__title__right">
+                                    Vista para o mar
+                                </div>
+                                <div class="services__list__item__info__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore est iusto pariatur esse officia non unde sapiente sed ipsa nostrum accusamus alias molestiae et eos, cupiditate tempore iure blanditiis.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="services__geral">
+                        <li class="services__geral__icons">
+                            <abbr title="*Wi-Fi já incluso"><i class="bi bi-wifi"></i></abbr>
+                        </li>
+                        <li class="services__geral__icons">
+                            <abbr title="*Sala de TV já incluso"><i class="bi bi-tv"></i></abbr>
+                        </li>
+                        <li class="services__geral__icons">
+                            <abbr title="*Aberto todos os dias"><i class="bi bi-calendar3"></i>
+                            </abbr>
+                        </li>
+                    </ul>
+                </section>
             </div>
-
-            <div class="reserve__value">
-                <h2 class="reserve__value__cotacao">
-                    Faça a sua cotação
-                </h2>
-                <select id="select" class="reserve__value__select">
-                    <option value="opcao1" class="reserve__value__select__option">Dias da semana</option>
-                    <option value="opcao2" class="reserve__value__select__option">Fins de semana</option>
-                </select>
-                <p class="reserve__value__diaria">
-                    Diarias a partir de <br>
-                    <b>R$ <span id="valor">90,00</span>*</b>
-                </p>
-                <p class="reserve__value__observacao">
-                    *Consultar condições e sujeito a alterações
-                </p>
-                <a href="https://api.whatsapp.com/message/SH463ORGNBLNL1?autoload=1&app_absent=0" class="reserve__value__button" target="_blank">Reserve já!</a>
+    
+        <section class="feedback" id="feedback">
+            <div class="container">
+                <div class="feedback__rating">
+                    <h2 class="feedback__rating__title">
+                        O que falam sobre a gente
+                    </h2>
+                    <div class="carousel slide" data-bs-ride="carousel" id="carousel-dois">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="4000">
+                                <ul class="feedback__rating__list">
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <h3 class="feedback__rating__list__item__name">
+                                            Maria clara
+                                        </h3>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <p class="feedback__rating__list__item__text">
+                                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
+                                        </p>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <ul class="feedback__rating__list">
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <h3 class="feedback__rating__list__item__name">
+                                            Leonardo Sibuya
+                                        </h3>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <p class="feedback__rating__list__item__text">
+                                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
+                                        </p>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <ul class="feedback__rating__list">
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <h3 class="feedback__rating__list__item__name">
+                                            Jade Melissa
+                                        </h3>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <p class="feedback__rating__list__item__text">
+                                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
+                                        </p>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <ul class="feedback__rating__list">
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <h3 class="feedback__rating__list__item__name">
+                                            Jade Melissa
+                                        </h3>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <p class="feedback__rating__list__item__text">
+                                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
+                                        </p>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <ul class="feedback__rating__list">
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/dog-2.jpg" alt="" class="feedback__rating__list__item__photo-profile">
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <h3 class="feedback__rating__list__item__name">
+                                            Jade Melissa
+                                        </h3>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <p class="feedback__rating__list__item__text">
+                                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolores cum, aspernatur vel eum enim omnis distinctio quos, dicta provident amet a assumenda, quae aperiam odit adipisci labore hic. Enim!"
+                                        </p>
+                                    </li>
+                                    <li class="feedback__rating__list__item">
+                                        <img src="dist/images/galeria/star.png" alt="" class="feedback__rating__list__item__photo-star">
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <button type="button" data-bs-slide="prev" data-bs-target="#carousel-dois" class="carousel-control-prev ">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button type="button" data-bs-slide="next" data-bs-target="#carousel-dois" class="carousel-control-next ">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/travel/search?q=hostel%20e%20pousada%20bahia%20beach&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4308227%2C4429192%2C4515404%2C4597339%2C4731329%2C4757164%2C4778035%2C4814050%2C4861688%2C4864715%2C4874190%2C4886082%2C4886480%2C4893075%2C4902277%2C4906023%2C4920132%2C4924069%2C4926165%2C4926489%2C4930751%2C4930753%2C4936396%2C4942347%2C4946428%2C4950242%2C4958150&hl=pt-BR&gl=br&cs=1&ssta=1&ts=CAESABpHCikSJzIlMHg5NGQwMmIzNWNkMTY3MDlkOjB4OWViNTQwMTliNGFhNWRmNhIaEhQKBwjnDxAEGBMSBwjnDxAEGBQYATICEAA&qs=CAEyFENnc0k5cnVwcFp1RDBOcWVBUkFCOAJCCwn2Xaq0GUC1nhgBQgsJ9l2qtBlAtZ4YAQ&ap=ugEHcmV2aWV3cw&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwiguPTut5j9AhUAAAAAHQAAAAAQDA" target="_blank" class="feedback__rating__button">Veja mais avaliações +</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    
+        <section class="reserve" id="reserve">
+            <div class="container">
+                <div class="reserve__info">
+                    <h2 class="reserve__info__title">
+                        Venha relaxar neste paraiso
+                    </h2>
+                    <p class="reserve__info__text">
+                        Não perca esta oportunidade e venha aproveitar, se divertir e descansar no Bahia Beach.
+                        <br>
+                        Para aproveitar tudo que oferecemos e ficar por dentro de todas as promoções, nos chame em nosso WhatsApp.
+                        <br>
+                        Estamos te esperando!
+                    </p>
+                    <a href="https://api.whatsapp.com/message/SH463ORGNBLNL1?autoload=1&app_absent=0" class="reserve__info__button" target="_blank">
+                        <i class="bi bi-whatsapp"></i>
+                        WhatsApp</a>
+                </div>
+    
+                <div class="reserve__value">
+                    <h2 class="reserve__value__cotacao">
+                        Faça a sua cotação
+                    </h2>
+                    <select id="select" class="reserve__value__select">
+                        <option value="opcao1" class="reserve__value__select__option">Dias da semana</option>
+                        <option value="opcao2" class="reserve__value__select__option">Fins de semana</option>
+                    </select>
+                    <p class="reserve__value__diaria">
+                        Diarias a partir de <br>
+                        <b>R$ <span id="valor">90,00</span>*</b>
+                    </p>
+                    <p class="reserve__value__observacao">
+                        *Consultar condições e sujeito a alterações
+                    </p>
+                    <a href="https://api.whatsapp.com/message/SH463ORGNBLNL1?autoload=1&app_absent=0" class="reserve__value__button" target="_blank">Reserve já!</a>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="footer" id="contact">
+            <div class="container">
+                <div class="footer__pay">
+                    <h4 class="footer__pay__title">
+                        Métodos de pagamentos:
+                    </h4>
+                    <ul class="footer__pay__list">
+                        <li class="footer__pay__list__item">
+                            <img class="footer__pay__list__item__img" src="dist/images/formas-de-pagamento/Mastercard-Logo.png" alt="">
+                        </li>
+                        <li class="footer__pay__list__item">
+                            <img class="footer__pay__list__item__img" src="dist/images/formas-de-pagamento/visa-logo.png" alt="">
+                        </li>
+                        <li class="footer__pay__list__item">
+                            <img class="footer__pay__list__item__img" src="dist/images/formas-de-pagamento/logo-pix.png" alt="">
+                        </li>
+                    </ul>
+                    <p class="footer__pay__text">
+                        Parcelamos em até 10x
+                    </p>
+                </div>
+    
+                <div class="footer__contact">
+                    <h4 class="footer__contact__title">
+                        Contato:
+                    </h4>
+                    <ul class="footer__contact__list-number">
+                        <li class="footer__contact__list-number__wpp">
+                            <a href="https://api.whatsapp.com/message/SH463ORGNBLNL1?autoload=1&app_absent=0" target="_blank" class="footer__contact__list-number__wpp__link">
+                                <i class="bi bi-whatsapp"></i>
+                                (13) 97425-7102</a>
+                        </li>
+                        <li class="footer__contact__list-number__wpp">
+                            <a href="tel: 11997112420" class="footer__contact__list-number__wpp__link">
+                                <i class="bi bi-whatsapp"></i>
+                                (11) 99711-2420</a>
+                        </li>
+                        <li class="footer__contact__list-number__wpp">
+                            <a href="tel: 13991572958" class="footer__contact__list-number__wpp__link">
+                                <i class="bi bi-whatsapp"></i>
+                                (13) 99157-2958</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__contact__list-social">
+                        <li class="footer__contact__list-social__item">
+                            <a href="https://www.instagram.com/hostelpousada.bahiabeach/" target="_blank" class="footer__contact__list-social__item__link">
+                                <i class="bi bi-instagram"></i>
+                                @hostelpousada.bahiabeach</a>
+                        </li>
+                        <li class="footer__contact__list-social__item">
+                            <a href="mailto:hostelpousada.bahiabeach@outlook.com.br" target="_blank" class="footer__contact__list-social__item__link">
+                                <i class="bi bi-envelope-at"></i>
+                                hostelpousada.bahiabeach@outlook.com.br</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__map">
+                    <h4 class="footer__map__title">
+                        Nossa localização:
+                    </h4>
+                    <a href="https://www.google.com.br/maps/place/R.+Bahia,+51+-+Cibratel+II,+Itanha%C3%A9m+-+SP,+11740-000/@-24.2067092,-46.8315403,17z/data=!3m1!4b1!4m6!3m5!1s0x94d02ab5e92ba447:0x3195321c4f22478c!8m2!3d-24.2067092!4d-46.8293516!16s%2Fg%2F11f0kzhcmg" target="_blank" class="footer__map__link">
+                        <img class="footer__map__link__img" src="dist/images/mapa-2.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

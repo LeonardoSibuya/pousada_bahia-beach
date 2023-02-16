@@ -1,6 +1,7 @@
 AOS.init();
 
 document.addEventListener('DOMContentLoaded', function() {
+    //BOTAO DA SECTION DE FOTOS
     const buttons = document.querySelectorAll('[data-tab-button]')
 
     for (let i = 0; i < buttons.length; i++) {
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     }
 
+    //INTERAÇÃO COM OS VALORES DA SECTION RESERVE
     const select = document.getElementById("select")
     const span = document.getElementById('valor')
 
