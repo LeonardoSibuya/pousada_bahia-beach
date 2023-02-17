@@ -9,9 +9,33 @@
     background-image: linear-gradient(#FE5C37, #FFCD01);
     border-radius: 0px 20px 20px 0px;
 
+    @media (max-width: 1024px) {
+        display: block;
+        border-radius: 20px;
+    }
+
+    @media (max-width: 767px) {
+        display: block;
+        border-radius: 20px;
+    }
+
+    
+
     &__img{
         img {
             max-width: 460px;
+
+            @media (max-width: 1024px) {
+                max-width: 100%;
+                border-radius: 20px 20px 0px 0px;
+            }
+            
+            @media (max-width: 767px) {
+                max-width: 100%;
+                border-radius: 20px 20px 0px 0px;
+            }
+
+            
         }
     }
 
@@ -26,10 +50,36 @@
             letter-spacing: 2px;
             font-family: summer-love;
             color: #000;
+
+            @media (max-width: 1024px) {
+                font-size: 32px;
+                margin-bottom: 32px;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 20px;
+                margin-bottom: 32px;
+            }
+
+            
         }
 
         &__text {
             margin: 50px 16px 0px;
+
+            @media (max-width: 1024px) {
+                margin: 0 auto;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            @media (max-width: 767px) {
+                margin: 0 auto;
+                font-size: 14px;
+                text-align: center;
+            }
+
+            
         }
 
         &__list {
@@ -39,7 +89,16 @@
             gap: 8%;
             margin-top: 80px;
 
+            @media (max-width: 767px) {
+                display: block;
+                text-align: center;
+            }
+
             &__item {
+
+                @media (max-width: 767px) {
+                    padding: 8px 0;
+                }
 
                 &__link {
                     color: #000;
@@ -48,6 +107,10 @@
                     letter-spacing: 1px;
                     font-size: 20px;
                     transition: .2s ease;
+
+                    @media (max-width: 767px) {
+                        font-size: 18px;
+                    }
 
                     &:hover {
                         color: #fff;
@@ -58,7 +121,19 @@
 
         &__adress {
             margin: 0;
-            margin-top: 80px;            
+            margin-top: 80px;    
+            
+            @media (max-width: 1024px) {
+                padding-bottom: 24px;
+                margin-top: 40px;
+            }
+            
+            @media (max-width: 767px) {
+                padding-bottom: 24px;
+                margin-top: 30px;
+            }
+
+            
 
             &__link {
                 color: #000;
@@ -69,12 +144,35 @@
                 font-size: 20px;
                 transition: .4s ease;
 
+                @media (max-width: 1024px) {
+                    letter-spacing: 0;
+                    font-weight: bold;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 13px;
+                    letter-spacing: 0;
+                    font-weight: bold;
+                }
+
+                
+
                 &:hover {
                     letter-spacing: 4.5px;
+
+                    @media (max-width: 1024px) {
+                        letter-spacing: 0;
+                    }
+
+                    @media (max-width: 767px) {
+                        letter-spacing: 0px;
+                    }
+
+                    
                 }
 
                 i {
-                    color: rgb(230, 103, 0);
+                    color: #e66700;
                 }
             }
         }
