@@ -33,12 +33,14 @@ body {
     max-width: 100%;
     min-height: 100vh;
     height: 100%;
+    position: relative;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1280px;
     width: 100%;
+    position: relative;
 
     @media (max-width: 1024px) {
         max-width: 90%;
@@ -51,3 +53,28 @@ body {
     }
 }
 
+.wpp {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    &__link {
+        text-decoration: none;
+        z-index: 999;
+
+        &__img {
+            padding-right: 16px;
+            padding-bottom: 16px;
+            max-width: 100px;
+
+            @media (max-width: 1024px) {
+                max-width: 80px;
+            }
+
+            @media (max-width: 767px) {
+                max-width: 80px;
+            }
+        }
+    }
+    
+}

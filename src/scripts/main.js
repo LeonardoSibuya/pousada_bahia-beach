@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
     //FUNÇÃO DE ABRIR IMAGENS DA GALERIA
-
     const images = document.querySelectorAll('.gallery__fotos__tab__list__item__img')
 
     images.forEach(image => {
@@ -54,6 +53,14 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.appendChild(overlay)
         })
     })
+
+    //NAV TOGGLE
+        const botaoNav = document.getElementById('botao-nav')
+        const navList = document.getElementById('nav-list')
+    
+        botaoNav.addEventListener('click', () => {
+        navList.classList.toggle('show')
+        })
 })
 
 function removeBotaoAtivo() {
