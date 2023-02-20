@@ -1,6 +1,8 @@
+@use 'variaveis';
+
 .footer {
     margin-top: 160px;
-    background-color: #042238;
+    background-color: variaveis.$corFooter;
     padding: 44px 0;
     
     .container {
@@ -24,7 +26,7 @@
     }
 
     &__pay {
-        color: #fff;
+        color: variaveis.$corHover;
         text-align: center;
 
         @media (max-width: 1024px) {
@@ -73,7 +75,7 @@
 
         &__text {
             text-align: center;
-            color: #dfdedeb2;
+            color: variaveis.$corHoverFooter;
             font-style: italic;
             font-size: 12px;
 
@@ -84,7 +86,7 @@
     }
 
     &__contact {
-        color: #fff;
+        color: variaveis.$corHover;
         text-align: center;
         padding: 0 16px;
 
@@ -136,10 +138,10 @@
 
             &__link {
                 text-decoration: none;
-                color: #fff;
+                color: variaveis.$corHover;
 
                 &:hover {
-                    color: #dfdedeb2;
+                    color: variaveis.$corHoverFooter;
                 }
             }
             }
@@ -167,10 +169,10 @@
 
             &__link {
                 text-decoration: none;
-                color: #fff;
+                color: variaveis.$corHover;
 
                 &:hover {
-                    color: #dfdedeb2;
+                    color: variaveis.$corHoverFooter;
                 }
             }
             }
@@ -181,7 +183,7 @@
         text-align: center;
 
         &__title {
-            color: #fff;
+            color: variaveis.$corHover;
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 16px;
@@ -208,7 +210,7 @@
                 }
 
                 &:hover {
-                    border: 3px solid #f78324;
+                    border: 3px solid variaveis.$corDegradeLaranja;
                     border-radius: 16px;
                 }
             }

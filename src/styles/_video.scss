@@ -1,7 +1,9 @@
+@use 'variaveis';
+
 .video {
     text-align: center;
     margin: 0 auto;
-    background-image: linear-gradient(to right, #FE5C37, #FFCD01);
+    background-image: linear-gradient(to right, variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
     padding-bottom: 160px;
 
     @media (max-width: 767px) {
@@ -11,8 +13,8 @@
     &__title {
         font-weight: bold;
         font-size: 40px;
-        color: #000;
-        text-shadow: 0px 1px 1px #000;
+        color: variaveis.$corTexto;
+        text-shadow: 0px 1px 1px variaveis.$corTexto;
         font-family: summer-love;
         margin-bottom: 36px;
 

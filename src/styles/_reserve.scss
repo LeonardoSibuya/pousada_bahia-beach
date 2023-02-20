@@ -1,3 +1,5 @@
+@use 'variaveis';
+
 .reserve {
     background-image: url(../../dist/images/galeria/itanhaem-2.jpg);
     background-size: cover;
@@ -5,7 +7,7 @@
     padding-top: 160px;
     padding-bottom: 240px;
     background-position: bottom;
-    color: #000;
+    color: variaveis.$corTexto;
 
     @media (max-width: 1024px) {
         padding: 80px 0;
@@ -33,7 +35,7 @@
 
     &__value {
         text-align: center;
-        background-color: #ffffffb7;
+        background-color: variaveis.$corBrancoClaro;
         padding: 36px 16px;
         border-radius: 20px;
         margin-left: 36px;
@@ -69,7 +71,7 @@
             padding: 6px;
             font-weight: bold;
             border: none;
-            border-bottom: 2px solid #32a0ee;
+            border-bottom: 2px solid variaveis.$corAzulPousada;
             outline: none;
             text-align: center;
             margin-bottom: 36px;
@@ -86,7 +88,7 @@
             
 
             &__option {
-                background-color: orange;
+                background-color: variaveis.$corLaranjaClaro;
 
                 @media (max-width: 1024px) {
                     font-size: 10px;
@@ -121,7 +123,7 @@
         }
 
         &__button {
-            background-color: #07c007;
+            background-color: variaveis.$corButtonReserve;
             padding: 10px 16px;
             color: #fff;
             border-radius: 20px;
@@ -142,7 +144,7 @@
             
 
             &:hover {
-                background-color: darken(#07c007, 10%);
+                background-color: darken(variaveis.$corButtonReserve, 10%);
             }
         }
 
@@ -165,9 +167,9 @@
     }
 
     &__info {
-        color: #000;
+        color: variaveis.$corTexto;
         text-align: center;
-        background-color: #ffffffb7;
+        background-color: variaveis.$corBrancoClaro;
         padding: 36px 16px;
         border-radius: 20px;
 
@@ -214,9 +216,9 @@
 
         &__button {
             
-            background-color: #07c007;
+            background-color: variaveis.$corButtonReserve;
             padding: 10px 16px;
-            color: #fff;
+            color: variaveis.$corHover;
             border-radius: 20px;
             border: none;
             text-decoration: none;
@@ -235,7 +237,7 @@
             
 
             &:hover {
-                background-color: darken(#07c007, 10%);
+                background-color: darken(variaveis.$corButtonReserve, 10%);
             }
         }
     }

@@ -1,3 +1,5 @@
+@use 'variaveis';
+
 .services {
     margin-top: 160px;
     margin-bottom: 160px;
@@ -19,12 +21,12 @@
         margin-bottom: 24px;
         text-align: center;
         font-family: summer-love;
-        color: #000;
+        color: variaveis.$corTexto;
         font-size: 44px;
         padding: 24px 0;
         width: 100%;
         border-radius: 80px 80px 10px 10px;
-        background-image: linear-gradient(to left,#FE5C37, #FFCD01);
+        background-image: linear-gradient(to left,variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
 
         @media (max-width: 1024px) {
             font-size: 24px;
@@ -48,7 +50,7 @@
         margin-top: 24px;
         padding: 24px 0;
         border-radius: 10px 10px 80px 80px;
-        background-image: linear-gradient(to right,#FE5C37, #FFCD01);
+        background-image: linear-gradient(to right,variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
 
         &__icons {
             font-size: 36px;
@@ -67,7 +69,7 @@
 
             &:hover {
                 font-size: 38px;
-                color: #fff;
+                color: variaveis.$corHover;
 
                 @media (max-width: 1024px) {
                     font-size: 36px;
@@ -89,14 +91,14 @@
             display: flex;
             justify-content: space-around;
             align-items: start;
-            background-image: linear-gradient(to right,#FE5C37, #FFCD01);
+            background-image: linear-gradient(to right,variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
             margin: 36px 0;
             border-radius: 20px;
 
             @media (max-width: 767px) {
                 display: block;
                 text-align: center;
-                background-image: linear-gradient(to bottom,#FE5C37, #FFCD01);
+                background-image: linear-gradient(to bottom,variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
                 border-radius: 10px;
             }
 
@@ -109,10 +111,10 @@
             }
 
             &__left {
-                background-image: linear-gradient(to left,#FE5C37, #FFCD01);
+                background-image: linear-gradient(to left,variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
 
                 @media (max-width: 767px) {
-                    background-image: linear-gradient(to top,#FE5C37, #FFCD01)
+                    background-image: linear-gradient(to top,variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo)
                 }
             }
 
@@ -126,7 +128,7 @@
                     padding: 0 16px;
                     font-weight: bold;
                     letter-spacing: 2px;
-                    color: darken(#32a0ee, 20%);
+                    color: darken(variaveis.$corAzulPousada, 20%);
                     text-shadow: 1px 0px 1px #000000d8;
 
                     @media (max-width: 1024px) {

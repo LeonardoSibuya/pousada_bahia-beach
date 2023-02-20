@@ -1,5 +1,7 @@
+@use 'variaveis';
+
 .header {
-    background-image: linear-gradient(#FE5C37, #FFCD01);
+    background-image: linear-gradient(variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
 
     &__title {
         text-align: center;

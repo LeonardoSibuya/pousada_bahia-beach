@@ -1,3 +1,5 @@
+@use 'variaveis';
+
 .container {
     padding-top: 16px;
 } 
@@ -6,7 +8,7 @@
     display: flex;
     margin-top: 160px;
     margin-bottom: 160px;
-    background-image: linear-gradient(#FE5C37, #FFCD01);
+    background-image: linear-gradient(variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
     border-radius: 0px 20px 20px 0px;
 
     @media (max-width: 1024px) {
@@ -49,7 +51,7 @@
             font-weight: bold;
             letter-spacing: 2px;
             font-family: summer-love;
-            color: #000;
+            color: variaveis.$corTexto;
 
             @media (max-width: 1024px) {
                 font-size: 32px;
@@ -101,7 +103,7 @@
                 }
 
                 &__link {
-                    color: #000;
+                    color: variaveis.$corTexto;
                     text-decoration: none;
                     font-weight: bold;
                     letter-spacing: 1px;
@@ -113,7 +115,7 @@
                     }
 
                     &:hover {
-                        color: #fff;
+                        color: variaveis.$corHover;
                     }
                 }
             }
@@ -136,7 +138,7 @@
             
 
             &__link {
-                color: #000;
+                color: variaveis.$corTexto;
                 font-style: italic;
                 text-decoration: none;
                 transition: .3s;
@@ -172,7 +174,7 @@
                 }
 
                 i {
-                    color: #e66700;
+                    color: variaveis.$corDegradeLaranja;
                 }
             }
         }

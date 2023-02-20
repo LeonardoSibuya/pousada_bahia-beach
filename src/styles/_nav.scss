@@ -1,10 +1,12 @@
+@use 'variaveis';
+
 .nav {
     margin-top: -8px;
     position: sticky;
     z-index: 2;
     left: 0;
     top: 0;
-    background-image: linear-gradient(#ffcc01, #ffcc0198);
+    background-image: linear-gradient(variaveis.$corNav, variaveis.$corNavClaro);
 
     @media (max-width: 1024px) {
         display: block;
@@ -22,7 +24,7 @@
             text-align: left;
             width: 10%;
             font-size: 36px;
-            color: #fff;
+            color: variaveis.$corHover;
             padding: 12px 24px;
             font-weight: bolder;
             cursor: pointer;
@@ -35,7 +37,7 @@
         text-align: left;
         width: 10%;
         font-size: 24px;
-        color: #fff;
+        color: variaveis.$corHover;
         padding: 12px 24px;
         font-weight: bolder;
         cursor: pointer;
@@ -84,7 +86,7 @@
             &__link {
                 position: relative;
                 text-decoration: none;
-                color: #000;
+                color: variaveis.$corTexto;
                 font-weight: bold;
                 font-size: 14px;
                 letter-spacing: 0.5px;
@@ -105,7 +107,7 @@
                 &:after {
                     content: "";
                     position: absolute;
-                    background-color: #32a0ee;
+                    background-color: variaveis.$corAzulPousada;
                     height: 2px;
                     width: 0;
                     left: 0;
@@ -114,7 +116,7 @@
                 }
 
                 &:hover {
-                    color: #ffffff;
+                    color: variaveis.$corHover;
                     transition: .2s ease;
                 }
 

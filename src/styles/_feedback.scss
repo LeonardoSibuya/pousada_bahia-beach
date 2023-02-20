@@ -1,9 +1,11 @@
+@use 'variaveis';
+
 .feedback {
     padding: 120px 0px;
     margin: 0 auto;
     margin-bottom: 160px;
     padding-left: 0;
-    background-color: #f78324d8;
+    background-color: variaveis.$corLaranjaClaro;
 
     @media (max-width: 767px) {
         padding-top: 80px;
@@ -21,7 +23,7 @@
 
         &__title {
         font-family: summer-love;
-        color: #000;
+        color: variaveis.$corTexto;
         font-size: 36px;
         margin-bottom: 48px;
 
@@ -43,8 +45,8 @@
             width: 60%;
             padding: 24px;
             border-radius: 30px;
-            border: 2px solid #32a0ee;
-            background-color: #ffffff9c;
+            border: 2px solid variaveis.$corAzulPousada;
+            background-color: variaveis.$corBrancoClaro;
 
             @media (max-width: 767px) {
                 width: 80%;
@@ -108,7 +110,7 @@
                 position: relative;
                 text-decoration: none;
                 margin-top: 48px;
-                color: #000;
+                color: variaveis.$corTexto;
                 font-weight: bold;
                 font-size: 24px;
                 letter-spacing: 0.5px;
@@ -120,7 +122,7 @@
                 &:after {
                     content: "";
                     position: absolute;
-                    background-color: #32a0ee;
+                    background-color: variaveis.$corAzulPousada;
                     height: 2px;
                     width: 0;
                     left: 0;
@@ -129,7 +131,7 @@
                 }
 
                 &:hover {
-                    color: #ffffff;
+                    color: variaveis.$corHover;
                     transition: .2s ease;
                 }
 

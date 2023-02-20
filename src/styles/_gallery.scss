@@ -1,6 +1,8 @@
+@use 'variaveis';
+
 .gallery {
     display: flex;
-    background-image: linear-gradient(to right, #FE5C37, #FFCD01);
+    background-image: linear-gradient(to right, variaveis.$corDegradeLaranja, variaveis.$corDegradeAmarelo);
     justify-content: space-between;
     padding: 160px 80px;
     padding-bottom: 80px;
@@ -32,7 +34,7 @@
             text-align: center;
             font-style: italic;
             font-weight: bold;
-            color: #000;
+            color: variaveis.$corTexto;
 
             @media (max-width: 1024px) {
                 font-size: 32px;
@@ -50,8 +52,8 @@
                 padding-bottom: 24px;
                 font-weight: bold;
                 font-size: 48px;
-                color: #FFCD01;
-                text-shadow: 0px 1px 1px #000;
+                color: variaveis.$corDegradeAmarelo;
+                text-shadow: 0px 1px 1px variaveis.$corTexto;
                 font-family: summer-love;
 
                 @media (max-width: 1024px) {
@@ -168,7 +170,7 @@
                 background-color: transparent;
                 position: relative;
                 text-decoration: none;
-                color: #000;
+                color: variaveis.$corTexto;
                 font-weight: bold;
                 font-size: 18px;
                 letter-spacing: 0.5px;
@@ -182,7 +184,7 @@
                 &:after {
                     content: "";
                     position: absolute;
-                    background-color: #32a0ee;
+                    background-color: variaveis.$corAzulPousada;
                     height: 2px;
                     width: 0;
                     left: 0;
@@ -191,7 +193,7 @@
                 }
 
                 &:hover {
-                    color: #ffffff;
+                    color: variaveis.$corHover;
                     transition: .2s ease;
                 }
 
@@ -200,7 +202,7 @@
                 }
 
                 &--is-active {
-                    color: darken(#32a0ee, 20%);
+                    color: darken(variaveis.$corAzulPousada, 20%);
                     text-shadow: 1px 0px 1px #0000007c;
                     letter-spacing: 1px;
                     text-transform: uppercase;
@@ -216,7 +218,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #000000cc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,5 +247,5 @@
     font-weight: bold;
     background-color: transparent;
     border: none;
-    color: #fff;
+    color: variaveis.$corHover;
 }
