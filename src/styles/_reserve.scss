@@ -202,13 +202,15 @@
         &__text {
             font-size: 16px;
             margin-bottom: 36px;
+            font-weight: bold;
 
             @media (max-width: 1024px) {
                 font-size: 16px;
             }
 
             @media (max-width: 767px) {
-                font-size: 14px;
+                font-size: 13px;
+                text-align: center;
             }
 
             
