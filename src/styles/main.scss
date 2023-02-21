@@ -37,7 +37,7 @@ body {
     position: relative;
 
     @media (max-width: 767px) {
-        background-attachment: none;
+        background-attachment: fixed;
     }
 }
 
