@@ -35,6 +35,10 @@ body {
     min-height: 100vh;
     height: 100%;
     position: relative;
+
+    @media (max-width: 767px) {
+        background-attachment: none;
+    }
 }
 
 .container {
