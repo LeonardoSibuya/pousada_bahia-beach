@@ -37,7 +37,13 @@ body {
     position: relative;
 
     @media (max-width: 767px) {
-        background-attachment: fixed;
+        background-attachment: none;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 100vh;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
 
