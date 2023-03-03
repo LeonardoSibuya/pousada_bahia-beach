@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const valorSelecionado = select.value
 
         if (valorSelecionado === "opcao1") {
-            span.innerText = "90,00"
+            span.innerText = "80,00"
         } else {
             span.innerText = "300,00"
         }
